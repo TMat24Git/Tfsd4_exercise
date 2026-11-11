@@ -21,3 +21,21 @@ poetry install```
 2. Generate the project:
 ```bash
 poetry build```
+
+# How to use
+
+## Build the project
+
+Create a dist directory containing the wheel and the compressed archive:
+```bash
+poetry build```
+
+## Test the project
+
+```bash
+poetry run pytest```
+
+## Run the project
+
+```bash
+poetry run python src/analyzer.py [GitHub_account]```
