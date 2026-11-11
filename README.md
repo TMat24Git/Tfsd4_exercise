@@ -15,6 +15,7 @@ python src/analyzer.py <github_username>
 ## How to replicate the build
 
 1. Install dependencies:
+
 ```bash
 poetry install```
 
