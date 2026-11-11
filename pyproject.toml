@@ -1,0 +1,22 @@
+[project]
+name = "github-repo-analyzer"
+version = "0.2.0"
+description = "A CLI tool to fetch and display the 10 top repositories of a Github account"
+authors = [
+    {name = "TMat24Git",email = "mathilde.thery@etu.emse.fr"}
+]
+license = "MIT"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "requests (>=2.34.2,<3.0.0)",
+    "rich (>=15.0.0,<16.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+packages = [{include ="src"}]
